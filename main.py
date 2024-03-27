@@ -6,4 +6,4 @@ def tick(timer):
     global led_pin
     led_pin.toggle()
 
-tim.init(freq=3, mode=Timer.PERIODIC, callback=tick)
+tim.init(freq=2, mode=Timer.PERIODIC, callback=tick)
